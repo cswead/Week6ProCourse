@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"></link>
+    <link rel="stylesheet" href="src.css" ></link>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+  </head>
+  
+  <body>
+    <link style="src.css">
+     <form id="cityForm"> <input
+        type="search";
+        placeholder="Type your chosen city";
+        style="width: 100%";
+        id="cityImput";
+        required
+        />
+        <input
+      type="submit" 
+      value="search"
+      id="citySearch"
+     /></form>
+     </br>
+     <button id="geoSearch">
+      Use my geo location
+     </button>
+     
+  
+  </br>
+      <h2>
+        <span id="weatherSummary">Sunny </span> in 
+        <span id="citySelected">London</span> 
+        Today
+        <div id="tempToday">
+          
+        </div>
+        <span class="dateToday"><small>
+          The date today is heljkeznbva
+        </small></span>
+      </h2>
+  
+      <div class="card-group">
+        <div class="card">
+          <img
+            src="Images.jpg/rain.jpg"
+            class="card-img-top"
+            alt="..."
+            width="200px"
+            height="100px"
+          />
+          <div class="card-body">
+            <h5 class="card-title"><strong>Today</strong></h5>
+            <p class="card-text">It's looking like it's going to rain today</p>
+            <p class="card-text">
+                <span class="temp">18 </span>
+                <span class="units">
+                  <a href="#" class="celciusLink">℃</a>
+                |
+                <a href="#" class="fahLink">°F"</a></span>
+              </p>
+            </p>
+            <p class="card-text">
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="Images.jpg/Sunny.jpg"
+            class="card-img-top"
+            alt="..."
+            width="200px"
+            height="100px"
+          />
+          <div class="card-body">
+            <h5 class="card-title"><strong>Tomorrow</strong></h5>
+            <p class="card-text">
+              It's looking like it's going to be sunny today
+            </p>
+            <p class="card-text">
+              <span class="temp">18 </span>
+              <span class="units">
+                <a href="#" class="celciusLink">℃</a>
+              |
+              <a href="#" class="fahLink">°F"</a></span>
+              </p>
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="Images.jpg/Snow.jpg"
+            class="card-img-top"
+            alt="..."
+            width="200px"
+            height="100px"
+          />
+          <div class="card-body">
+            <h5 class="card-title"><strong>Day3</strong></h5>
+            <p class="card-text">It's looking like it's going to snow today</p>
+            <p class="card-text">
+              <span class="temp">18 </span>
+                <span class="units">
+                  <a href="#" class="celciusLink">℃</a>
+                |
+                <a href="#" class="fahLink">°F"</a></span>
+              </p>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="Images.jpg/Leaves.jpg"
+            class="card-img-top"
+            alt="..."
+            width="200px"
+            height="100px"
+          />
+          <div class="card-body">
+            <h5 class="card-title"><strong>Day4</strong></h5>
+            <p class="card-text">
+              It's looking like it's going to be leafy today
+            </p>
+            <p class="card-text">
+              <span class="temp">18 </span>
+              <span class="units">
+                <a href="#" class="celciusLink">℃</a>
+              |
+              <a href="#" class="fahLink">°F"</a></span>
+              </p>
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="Images.jpg/cloudy.jpg"
+            class="card-img-top"
+            alt="..."
+            width="200px"
+            height="100px"
+          />
+          <div class="card-body">
+            <h5 class="card-title"><strong>Day5</strong></h5>
+            <p class="card-text">
+              It's looking like it's going to be cloudy today
+            </p>
+            <p class="card-text">
+              <span class="temp">18 </span>
+              <span class="units">
+                <a href="#" class="celciusLink">℃</a>
+              |
+              <a href="#" class="fahLink">°F"</a></span>
+              </p>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
+
